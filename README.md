@@ -73,7 +73,8 @@ cd supabase-springboot-todo
 App will start at http://localhost:8080
 
 
-## API Endpoints
+## 📫 API Endpoints
+
 
 | Method | Endpoint          | Description    |
 | ------ | ----------------- | -------------- |
