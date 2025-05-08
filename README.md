@@ -44,12 +44,16 @@ $Env:DB_USER = 'postgres'
 $Env:DB_PASS = 'your-supabase-password'
 ```
 
-**### Option 2: Permanent (Windows user environment)**
+### Option 2: Permanent (Windows user environment)
+
+```powershel
 [System.Environment]::SetEnvironmentVariable('DB_HOST', 'your-host.supabase.co', 'User')
 [System.Environment]::SetEnvironmentVariable('DB_PORT', '5432', 'User')
 [System.Environment]::SetEnvironmentVariable('DB_NAME', 'postgres', 'User')
 [System.Environment]::SetEnvironmentVariable('DB_USER', 'postgres', 'User')
 [System.Environment]::SetEnvironmentVariable('DB_PASS', 'your-password', 'User')
+```
+
 
 ## 🧪 Running the Project
 
@@ -58,6 +62,7 @@ $Env:DB_PASS = 'your-supabase-password'
 git clone https://github.com/your-username/supabase-springboot-todo.git
 cd supabase-springboot-todo
 ```
+
 **2. Set environment variables as above**
 
 **3. Run the app:**
